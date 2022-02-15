@@ -13,10 +13,12 @@ import javax.persistence.*;
 public class ContinenteEntity {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE) //Va a ser una secuencia ej; 1, 2, 3,4...
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
     private String imagen;
     private String denominacion;
+
+
 
 
 }
